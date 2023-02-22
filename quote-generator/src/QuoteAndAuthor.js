@@ -17,7 +17,7 @@ class QuoteAndAuthor extends React.Component {
             </h5>
             </div>
   
-            <div id="buttons"><button id = "quotebutton" onClick={this.props.handleClick}>New Quote</button><a id = "tweet-quote" href = "https://twitter.com/intent/tweet">Tweet this Quote!</a></div>
+            <div id="buttons"><button id = "new-quote" onClick={this.props.handleClick}>New Quote</button><a id = "tweet-quote" href = "https://twitter.com/intent/tweet">Tweet this Quote!</a></div>
           </div>
         </div>
         
